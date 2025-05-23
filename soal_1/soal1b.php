@@ -16,9 +16,10 @@ if (isset($_POST['rows']) && isset($_POST['cols'])) {
 </head>
 
 <body>
-    <form method="post" action="form_3.php">
+    <form method="post" action="soal1c.php">
         <input type="hidden" name="rows" value="<?= $rows ?>">
         <input type="hidden" name="cols" value="<?= $cols ?>">
+
         <table>
             <?php for ($i = 0; $i < $rows; $i++) : ?>
                 <tr>

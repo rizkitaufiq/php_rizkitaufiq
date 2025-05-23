@@ -7,7 +7,7 @@
 </head>
 
 <body>
-    <form method="post" action="form_2.php">
+    <form method="post" action="soal1b.php">
         <label for="rows">Inputkan Jumlah Baris:</label>
         <input type="number" name="rows" id="rows" min="1" required style="width: 5%;"><br><br>
 
